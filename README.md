@@ -61,7 +61,7 @@
 >> RealWorldSpringContextLauncher.java (@Configuration, @ComponentScan)
 >> 
 
-      ***                  proj2를 통해 배운 내용
+      ***                  proj2를 통해 배운 내용
   
           - 의존성 주입 유형
       
@@ -80,16 +80,87 @@
 
 ---------------
                                                                                                         
->Structure of proj3
+> proj3 구조
 >> LazyInitializationLauncherApplication.java (@Configuration, @ComponentScan)
 >>> ClassA (@Component)
 >>> ClassB (@Component, @Lazy)
 
-     ***                 proj3를 통해 배운 내용
+     ***                 proj3를 통해 배운 내용
   
           - 자바 객체에서 LAZY 와 EAGER의 차이
+          
           -- EAGER : 연관된 객체를 한꺼번에 로딩한다
+          
           -- LAZY : 요청이 있을 시 연관된 객체를 로딩한다
+          
                                                                                          ***
+
+---------------
+
+
+> proj4 구조
+>> BeanScopesLauncherApplication.java (@Configuration, @ComponentScan)
+>>> PrototypeClass (@Component, @Scope(value=ConfigurableBeanFactory.SCOPE_PROTOTYPE))
+>>> NormalClass (@Component)
+
+
+     ***                 proj4를 통해 배운 내용
+  
+          - 스코프 ( 싱글톤 vs 프로토타입 )
+          
+          -- 싱글톤 : 하나의 Spring IOC Container에 하나의 객체 인스턴스를 생성
+          
+          -- 프로토타입 : 하나의 Spring IOC Conatiner에 많은 객체 인스턴스 생성. (객체 생성할때마다 다른 HashCode를 가진 객체 생성)
+
+          - 주로 싱글톤은 Stateless Beans 일때 사용하고, 프로토타입은 Stateful Beans 일때 사용한다.
+                                                                                         ***
+
+---------------
+
+
+> proj5 구조
+>> PrePostAnnotationsContextLauncherApplication.java (@Configuration, @ComponentScan)
+>>> SomeClass (@Component, @PostConstruct, @PreDestroy)
+>>> SomeDependency (@Component)
+
+
+     ***                 proj5를 통해 배운 내용
+  
+          - @PostConstruct : 빈 생성 직후에 실행하고 싶은 메서드에 붙인다
+          - @PreDestory : 빈 생성 삭제 혹은 프로그램 종료 직전에 실행하고 싶은 메서드에 붙인다.
+                                                                                         ***
+
+---------------
+
+
+> proj6Inject 구조
+>> CdiContextLauncherApplication.java (@Configuration, @ComponentScan)
+>>> DataService (@Component, @PostConstruct, @PreDestroy)
+>>> BusinessService (@Component)
+
+     ***                 proj6를 통해 배운 내용
+  
+          `implementation 'jakarta.inject:jakarta.inject-api:2.0.1'`
+           위 의존성을 사용할 경우, @Component를 @Named로 사용할 수 있다.
+                                                                                         ***
+
+
+---------------
+
+
+> proj7XML 구조
+>> XMLConfigurationContextLauncherApplication
+
                                                                                                     
+                                                                                                    
+     ***                 proj7를 통해 배운 내용
+  
+             - XML을 통해 빈 생성 하는 방법. 이때는 어느 어노테이션이 필요가 없다.
+
+             - 대신,         try(var context =
+                    new ClassPathXmlApplicationContext("contextConfiguration.xml"))
+
+                    이것을 추가해 xml과 자바 클래스 사이 매핑을 한다.
+                                                                                         ***
+
 
