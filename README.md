@@ -8,13 +8,13 @@
 >> game (folder)
 >>> GameRunner.java
 >>> 
->>> GamingConsole.java (@interface)
+>>> GamingConsole.java (interface)
 >>> 
->>> MarioGame.java
+>>> MarioGame.java (@Component)
 >>> 
->>> PacmanGame.java
+>>> PacmanGame.java  (@Component)
 >>> 
->>> SuperContraGame.java
+>>> SuperContraGame.java (@Component, @Primary)
 >> helloSpring (folder)
 >>
 >> App01GamingBasicJava.java
@@ -44,10 +44,10 @@
 >>
 >> DataService.java (interface)
 >>
->> MongoDBDateService (@Repository)
+>> MongoDBDateService.java (@Repository, @Primary)
 >>
->> App02GamingConfiguration.java
+>> MySQLDataService.java (@Repository)
 >>
->> App03GamingSpringBeans.java
->>
->> SpringBeanVSJavaBean.java
+>> RealWorldSpringContextLauncher.java (@Configuration, @ComponentScan)
+
+
