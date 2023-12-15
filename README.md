@@ -6,10 +6,15 @@ Followings are descriptions per each package inside 'SpringBoot/src/main/java/co
 
 proj1 
       |_ game
+      
       |_ hellospring
+      
       |_ App01GamingBasicJava.java
+      
       |_ App02GamingConfiguration.java
+      
       |_ App03GamingSpringBeans.java
+      
       |_ SpringBeanVSJavaBean.java
 
 - JAVA sources inside "game" folder explains how good is JAVA for loose-coupling.
