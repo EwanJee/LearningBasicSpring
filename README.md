@@ -6,12 +6,16 @@
 --------------
 >Structures of proj1
 >> game (folder)
->>
+>>> GameRunner.java
+>>> GamingConsole.java (@interface)
+>>> MarioGame.java
+>>> PacmanGame.java
+>>> SuperContraGame.java
 >> helloSpring (folder)
 >>
 >> App01GamingBasicJava.java
 >>
->> App02GamingConfiguration.java
+>> App02GamingConfiguration.java (@Configuration)
 >>
 >> App03GamingSpringBeans.java
 >>
@@ -32,7 +36,7 @@
                                                                                                         ***
 --------------
 >Structures of proj2
->> BusinessCalculationService.java
+>> BusinessCalculationService.java (@Service)
 >>
 >> DataService.java (interface)
 >>
