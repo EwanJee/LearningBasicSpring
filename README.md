@@ -30,5 +30,16 @@
           - Spring Bean : Any Java object that is managed by Spring. Spring uses IOC Conatiner to manage these beans.
           - If multiple matching beans have been found, we can choose between @Qualifier and @Primary.
                                                                                                         ***
-
-proj2 : 
+--------------
+>Structures of proj2
+>> BusinessCalculationService.java
+>>
+>> DataService.java (interface)
+>>
+>> MongoDBDateService (@Repository)
+>>
+>> App02GamingConfiguration.java
+>>
+>> App03GamingSpringBeans.java
+>>
+>> SpringBeanVSJavaBean.java
