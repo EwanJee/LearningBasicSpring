@@ -52,4 +52,9 @@
 >> RealWorldSpringContextLauncher.java (@Configuration, @ComponentScan)
 >> 
 
+ ***                   What I have learned from this proj2
+  
+          - Dependency Injection Types
+          -- Constructor based
+                                                                                                        ***
 
