@@ -100,7 +100,9 @@
 
 > proj4 구조
 >> BeanScopesLauncherApplication.java (@Configuration, @ComponentScan)
+>> 
 >>> PrototypeClass (@Component, @Scope(value=ConfigurableBeanFactory.SCOPE_PROTOTYPE))
+>>> 
 >>> NormalClass (@Component)
 
 
@@ -120,7 +122,9 @@
 
 > proj5 구조
 >> PrePostAnnotationsContextLauncherApplication.java (@Configuration, @ComponentScan)
+>> 
 >>> SomeClass (@Component, @PostConstruct, @PreDestroy)
+>>> 
 >>> SomeDependency (@Component)
 
 
@@ -135,7 +139,9 @@
 
 > proj6Inject 구조
 >> CdiContextLauncherApplication.java (@Configuration, @ComponentScan)
+>> 
 >>> DataService (@Component, @PostConstruct, @PreDestroy)
+>>> 
 >>> BusinessService (@Component)
 
      ***                 proj6를 통해 배운 내용
