@@ -7,9 +7,13 @@
 >Structures of proj1
 >> game (folder)
 >>> GameRunner.java
+>>> 
 >>> GamingConsole.java (@interface)
+>>> 
 >>> MarioGame.java
+>>> 
 >>> PacmanGame.java
+>>> 
 >>> SuperContraGame.java
 >> helloSpring (folder)
 >>
