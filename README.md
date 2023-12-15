@@ -4,27 +4,18 @@ This is the repository to store JAVA codes which I have learned with via UDEMY.
 
 Followings are descriptions per each package inside 'SpringBoot/src/main/java/com/Learning/SpringBoot/' folder.
 --------------
-
-Structures of proj1 
-
-      |_ game (folder)
-      
-      |_ hellospring (folder)
-      
-      |_ App01GamingBasicJava.java
-      
-      |_ App02GamingConfiguration.java
-      
-      |_ App03GamingSpringBeans.java
-      
-      |_ SpringBeanVSJavaBean.java
-
-
-
 >Structures of proj1
->> game
+>> game (folder)
 >>
->> helloSpring
+>> helloSpring (folder)
+>>
+>> App01GamingBasicJava.java
+>>
+>> App02GamingConfiguration.java
+>>
+>> App03GamingSpringBeans.java
+>>
+>> SpringBeanVSJavaBean.java
 
 - JAVA sources inside "game" folder explains how good is JAVA for loose-coupling.
 - App02GamingConfiguration.java lets us know how to set spring beans in a JAVA class using some annotations such as @Configuration, @Bean.
