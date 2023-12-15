@@ -6,7 +6,7 @@ Followings are descriptions per each package inside 'SpringBoot/src/main/java/co
 
 Structures of proj1 
 
-      |_ game (folder)
+      >> game (folder)
       
       |_ hellospring (folder)
       
