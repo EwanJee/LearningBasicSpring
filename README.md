@@ -22,9 +22,9 @@ Structures of proj1
 
 
 >Structures of proj1
->>game
+>> game
 >>
->>helloSpring 
+>> helloSpring
 
 - JAVA sources inside "game" folder explains how good is JAVA for loose-coupling.
 - App02GamingConfiguration.java lets us know how to set spring beans in a JAVA class using some annotations such as @Configuration, @Bean.
