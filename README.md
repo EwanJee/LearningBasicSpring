@@ -32,11 +32,17 @@
       ***                   What I have learned from this proj1
   
           - Spring Container (= Spring Context, IOC Container) : Manages Spring beans and their lifecycle.
+  
           - Application Context : Easy to use in web applications and easy to integrate with SPRING AOP (Aspect Oriented Programming).
+  
           - Bean Factory : Basic Spring Container
+  
           - Java Bean : Has public default constructors, Allow access to their properties using getter and setter, implement hava.io.Serializable
+  
           - POJO : Plain Old Java Object. Any java object is a POJO
+  
           - Spring Bean : Any Java object that is managed by Spring. Spring uses IOC Conatiner to manage these beans.
+  
           - If multiple matching beans have been found, we can choose between @Qualifier and @Primary.
                                                                                                         ***
 --------------
@@ -56,5 +62,10 @@
   
           - Dependency Injection Types
           -- Constructor based
+          -- Setter based
+          -- Field based
+          -> Spring team recommends contructor-based injection.
+
+          -
                                                                                                         ***
 
