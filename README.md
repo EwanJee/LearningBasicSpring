@@ -22,6 +22,7 @@ Structures of proj1
 
 >Structures of proj1
 >>game
+>>
 >>helloSpring 
 
 - JAVA sources inside "game" folder explains how good is JAVA for loose-coupling.
