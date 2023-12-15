@@ -1,10 +1,10 @@
 # LearningSpringBoot
 
-### This is the repository to store JAVA codes which I have learned with via UDEMY.
+##### This is the repository to store JAVA codes which I have learned with via UDEMY.
 
-### Followings are descriptions per each package inside 'SpringBoot/src/main/java/com/Learning/SpringBoot/' folder.
+##### Followings are descriptions per each package inside 'SpringBoot/src/main/java/com/Learning/SpringBoot/' folder.
 --------------
->Structures of proj1
+>Structure of proj1
 >> game (folder)
 >>> GameRunner.java
 >>> 
@@ -39,7 +39,7 @@
           - If multiple matching beans have been found, we can choose between @Qualifier and @Primary.
                                                                                                         ***
 --------------
->Structures of proj2
+>Structure of proj2
 >> BusinessCalculationService.java (@Service)
 >>
 >> DataService.java (interface)
