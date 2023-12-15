@@ -6,7 +6,7 @@ Followings are descriptions per each package inside 'SpringBoot/src/main/java/co
 
 Structures of proj1 
 
-      >> game (folder)
+      |_ game (folder)
       
       |_ hellospring (folder)
       
@@ -17,6 +17,12 @@ Structures of proj1
       |_ App03GamingSpringBeans.java
       
       |_ SpringBeanVSJavaBean.java
+
+
+
+>Structures of proj1
+>>game
+>>helloSpring 
 
 - JAVA sources inside "game" folder explains how good is JAVA for loose-coupling.
 - App02GamingConfiguration.java lets us know how to set spring beans in a JAVA class using some annotations such as @Configuration, @Bean.
