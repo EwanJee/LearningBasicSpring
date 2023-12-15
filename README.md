@@ -58,14 +58,20 @@
 >> RealWorldSpringContextLauncher.java (@Configuration, @ComponentScan)
 >> 
 
- ***                   What I have learned from this proj2
+      ***                   What I have learned from this proj2
   
           - Dependency Injection Types
+          
           -- Constructor based
+          
           -- Setter based
+          
           -- Field based
+          
           -> Spring team recommends contructor-based injection.
 
-          -
+          - @Service : holdes the business logic. 
+
+          - @Repository : catches persistence-specific exceptions
                                                                                                         ***
 
