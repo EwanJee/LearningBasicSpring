@@ -1,10 +1,10 @@
 # LearningSpringBoot
 
-###### This is the repository to store JAVA codes which I have learned with via UDEMY.
+###### 이 레포지토리를 통해 UDEMY에서 배운 JAVA CODE를 복습하고 제가 배우고 느낀 것들을 기록합니다.
 
-##### Followings are descriptions per each package inside 'SpringBoot/src/main/java/com/Learning/SpringBoot/' folder.
+###### SpringBoot/src/main/java/com/Learning/SpringBoot/' 폴더 내 각 패키지에 대한 설명입니다.
 --------------
->Structure of proj1
+> proj1 구조
 >> game (folder)
 >>> GameRunner.java
 >>> 
@@ -26,27 +26,28 @@
 >> SpringBeanVSJavaBean.java
 >> 
 
-- JAVA sources inside "game" folder explains how good is JAVA for loose-coupling.
-- App02GamingConfiguration.java lets us know how to set spring beans in a JAVA class using some annotations such as @Configuration, @Bean.
+- "game" 폴더 내의 JAVA 소스는 JAVA가 느슨한 결합(Loose-Coupling)을 위해 얼마나 좋은지 설명합니다.
+- App02GamingConfiguration.java는 @Configuration, @Bean과 같은 어노테이션을 사용하여 JAVA 클래스에서 spring bean을 어떻게 설정하는지를 보여줍니다.
 
-      ***                   What I have learned from this proj1
+      ***                   proj1을 통해 배운 내용
   
-          - Spring Container (= Spring Context, IOC Container) : Manages Spring beans and their lifecycle.
+          - Spring Container (= Spring Context, IOC Container) : Spring Bean 및 그 라이프사이클을 관리합니다.
   
-          - Application Context : Easy to use in web applications and easy to integrate with SPRING AOP (Aspect Oriented Programming).
+          - Application Context : 웹 애플리케이션에서 쉽게 사용하며 SPRING AOP (Aspect Oriented Programming)과 쉽게 통합됩니다.
   
-          - Bean Factory : Basic Spring Container
+          - Bean Factory : 기본적인 Spring Container
   
-          - Java Bean : Has public default constructors, Allow access to their properties using getter and setter, implement hava.io.Serializable
+          - Java Bean : public 기본 생성자를 가지며, getter와 setter를 사용하여 속성에 액세스 할 수 있으며, java.io.Serializable을 구현합니다.
   
-          - POJO : Plain Old Java Object. Any java object is a POJO
+          - POJO : Plain Old Java Object. 모든 Java 객체는 POJO입니다.
   
-          - Spring Bean : Any Java object that is managed by Spring. Spring uses IOC Conatiner to manage these beans.
+          - Spring Bean : Spring에 의해 관리되는 모든 Java 객체. Spring은 IOC Container를 사용하여 이러한 Bean을 관리합니다.
+
   
-          - If multiple matching beans have been found, we can choose between @Qualifier and @Primary.
+          - 여러 일치하는 Bean이 발견되면 @Qualifier 및 @Primary 중에서 선택할 수 있습니다.
                                                                                                         ***
 --------------
->Structure of proj2
+> proj2 구조
 >> BusinessCalculationService.java (@Service)
 >>
 >> DataService.java (interface)
@@ -58,25 +59,35 @@
 >> RealWorldSpringContextLauncher.java (@Configuration, @ComponentScan)
 >> 
 
-      ***                   What I have learned from this proj2
+      ***                  proj2를 통해 배운 내용
   
-          - Dependency Injection Types
+          - 의존성 주입 유형
+      
+          -- 생성자 기반
+      
+          -- Setter 기반
+      
+          -- 필드 기반
           
-          -- Constructor based
-          
-          -- Setter based
-          
-          -- Field based
-          
-          -> Spring team recommends contructor-based injection.
+          -> Spring 팀은 생성자 기반 주입을 권장합니다.
 
-          - @Service : holdes the business logic. 
+          - @Service : 비즈니스 로직을 보유합니다. 
 
-          - @Repository : catches persistence-specific exceptions
-                                                                                                        ***
+          - @Repository : 영속성과 관련된 예외를 처리합니다.                                     ***
                                                                                                         
-                                                                                                        --------------
+
+---------------
+                                                                                                        
 >Structure of proj3
 >> LazyInitializationLauncherApplication.java (@Configuration, @ComponentScan)
->>> 
+>>> ClassA (@Component)
+>>> ClassB (@Component, @Lazy)
+
+     ***                  proj3를 통해 배운 내용
+  
+          - 자바 객체에서 LAZY 와 EAGER의 차이
+          -- EAGER : 연관된 객체를 한꺼번에 로딩한다
+          -- LAZY : 요청이 있을 시 연관된 객체를 로딩한다
+                                                                                         ***
+                                                                                                    
 
