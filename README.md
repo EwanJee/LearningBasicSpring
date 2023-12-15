@@ -74,4 +74,9 @@
 
           - @Repository : catches persistence-specific exceptions
                                                                                                         ***
+                                                                                                        
+                                                                                                        --------------
+>Structure of proj3
+>> LazyInitializationLauncherApplication.java (@Configuration, @ComponentScan)
+>>> 
 
